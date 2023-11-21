@@ -1,9 +1,6 @@
 import praw
-#Offensivejokes
-#dank_meme
-#Holup
-sublist = ['Offensivejokes', 'dank_memes', 'Holup']
-reddit = praw.Reddit(client_id = 'WJv5MceiWnLI2jUEeQtSBg', client_secret='Uj3hIYmlQ_oUO1cgc1_uV3E5cBrHgg', user_agent='<console:FunnyBunny:1.0>')
+sublist = [] #Up to you!
+reddit = praw.Reddit(client_id = '<client_id>', client_secret='<client_secret>', user_agent='<console_header>')
 def get_videos(sub):
   subreddit = reddit.subreddit(sub)
   url_verif = '<dummy url>'
